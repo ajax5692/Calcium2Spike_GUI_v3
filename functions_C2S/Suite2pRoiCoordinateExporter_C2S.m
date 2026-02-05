@@ -8,7 +8,7 @@ load(strcat(d.FallDataPath,d.FallFilename))
 cellCounter = 1;
 count = 0;
 
-for cellIndex = 1:5%size(stat,2)
+for cellIndex = 1:size(stat,2)
 
 
     if isCell(cellIndex,1) == 1
@@ -53,5 +53,6 @@ for cellIndex = 1:5%size(stat,2)
     else
         continue
     end
+
 
 end
