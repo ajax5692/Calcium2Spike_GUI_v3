@@ -12,7 +12,7 @@ load(strcat(d.FallDataPath,d.FallFilename))
 
 PSNRcounter = 1;
 
-childrenArray = GUI_childrenFinder(d,'','secondaryPBconsole');
+childrenArray = GUI_childrenFinder_C2S(d,'','secondaryPBconsole');
 
 for cellIndex = 1:size(F,1)
 
@@ -43,3 +43,4 @@ end
 
 
     
+
